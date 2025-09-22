@@ -15,16 +15,16 @@ function Header() {
         {/* Header Section Start */}
       <header>
         <div className="flex justify-between items-center px-[5%]  mx-auto py-4 bg-[#333333] text-[#B3B3B3]">
-          <div className="flex items-center gap-1.5">
+          <div className="flex items-center gap-1.5 cursor-pointer hover:underline">
             <FontAwesomeIcon icon={faLocationDot} />
             <p>Store Location: Thakurgaon,Rangpur,Bangladesh</p>
           </div>
           <div className="flex justify-between items-center gap-6">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 cursor-pointer">
               <p>Bangla</p>
               <FontAwesomeIcon icon={faChevronDown} />
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 cursor-pointer">
               <p>Taka</p>
               <FontAwesomeIcon icon={faChevronDown} />
               <div className="w-0.5 h-6 bg-[#B3B3B3]"></div>
@@ -95,12 +95,12 @@ function Header() {
         </nav>
         <div className=" bg-[url('/images/background.jpg')] bg-cover">
           <div className="flex items-center gap-2 py-12 px-[5%] ">
-            <FontAwesomeIcon className="text-gray-400 text-xl" icon={faHouse} />
+            <FontAwesomeIcon className="text-gray-400 text-xl cursor-pointer" icon={faHouse} />
             <FontAwesomeIcon
               className="text-gray-400 text-xl"
               icon={faChevronRight}
             />
-            <p className="text-[#00B207] text-lg ">About</p>
+            <p className="text-[#00B207] text-lg cursor-pointer ">About</p>
           </div>
         </div>
       </header>

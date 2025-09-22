@@ -17,6 +17,7 @@ import Teams from "../Components/Teams";
 import Testimonial from "../Components/Testimonial";
 import Links from "../Components/Links";
 import Contact from "../Components/Contact";
+import Footer from "../Components/Footer";
 
 function Home() {
   return (
@@ -31,6 +32,7 @@ function Home() {
         <Links />
         <Contact />
       </main>
+      <Footer/>
 
     </>
   );

@@ -8,7 +8,7 @@ function Testimonial() {
           <div className="mx-[10%] py-28 ">
             <div className="flex justify-between items-center">
               <h1 className="text-5xl text-[#1A1A1A] font-semibold">Client Testimonial</h1>
-              <img src="/images/Arrow.png" alt="" />
+              <img className='cursor-pointer' src="/images/Arrow.png" alt="" />
             </div>
             <div className="grid grid-cols-3 gap-6 pt-12">
               <div className="bg-white rounded-lg shadow-xl p-6">

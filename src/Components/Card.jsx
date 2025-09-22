@@ -28,7 +28,7 @@ function Card() {
               <p className="text-[#808080] text-[16px] pb-8">
                 Free shipping on all your order. we deliver, you enjoy
               </p>
-              <button className="hover:bg-[#00B207] bg-white border-2 border-[#00B207] px-6 py-3 font-semibold hover:text-white rounded-3xl text-gray-400 duration-500 flex items-center gap-2">
+              <button className="hover:bg-[#00B207] cursor-pointer bg-white border-2 border-[#00B207] px-6 py-3 font-semibold hover:text-white rounded-3xl text-gray-400 duration-500 flex items-center gap-2">
                 <p>Shop now</p>
                 <FontAwesomeIcon icon={faArrowRight} />
               </button>
