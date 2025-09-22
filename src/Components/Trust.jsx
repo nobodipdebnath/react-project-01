@@ -5,21 +5,21 @@ function Trust() {
     <div>
         {/* Trust section start */}
         <section className=" bg-gray-50 ">
-          <div className="px-[7%] grid grid-cols-2 py-[100px]  ">
+          <div className="px-[7%] grid grid-cols-1 lg:grid-cols-2 pb-10 md:py-[100px]  ">
             <div className="bg-[url('/images/BG.png')] bg-center bg-cover rounded-lg">
               <img src="/images/Image.png" alt="" />
             </div>
             <div>
-              <h1 className="text-6xl font-semibold text-[#002603] ">
+              <h1 className="text-6xl font-semibold text-[#002603] text-center md:text-start mt-5 md:mt-0 ">
                 100% Trusted Organic Food Store
               </h1>
-              <p className="text-[#808080] text-[16px] py-6 ">
+              <p className="text-[#808080] text-[16px] py-6 text-center md:text-start ">
                 Pellentesque a ante vulputate leo porttitor luctus sed eget
                 eros. Nulla et rhoncus neque. Duis non diam eget est luctus
                 tincidunt a a mi. Nulla eu eros consequat tortor tincidunt
                 feugiat.{" "}
               </p>
-              <div className="grid grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div className="flex items-center gap-2 p-2 bg-gray-100 rounded-lg shadow-lg">
                   <img src="/images/Icon.png" alt="" />
                   <div>

@@ -5,7 +5,7 @@ function Links() {
     <div>
         {/* Links Section start */}
         <section>
-          <div className="mx-[10%] flex justify-between items-center py-20">
+          <div className="mx-[10%] flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between items-center py-20">
             <img className="cursor-pointer" src="/images/group5.png" alt="" />
             <img className="cursor-pointer" src="/images/group.png" alt="" />
             <img className="cursor-pointer" src="/images/group1.png" alt="" />

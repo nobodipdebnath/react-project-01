@@ -6,37 +6,42 @@ import {
   faHouse,
   faHeart,
   faArrowRight,
-  faChevronRight,
+  faChevronRight,faBars,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
     <div>
-        {/* Header Section Start */}
+      {/* Header Section Start */}
       <header>
-        <div className="flex justify-between items-center px-[5%]  mx-auto py-4 bg-[#333333] text-[#B3B3B3]">
+        <div className="flex md:flex-row gap-10 md:gap-0 justify-between items-center px-[5%]  mx-auto py-4 bg-[#333333] text-[#B3B3B3]">
           <div className="flex items-center gap-1.5 cursor-pointer hover:underline">
             <FontAwesomeIcon icon={faLocationDot} />
-            <p>Store Location: Thakurgaon,Rangpur,Bangladesh</p>
+            <p>Store Location: Thakurgaon,Rangpur, <br className="lg:hidden" />Bangladesh</p>
           </div>
-          <div className="flex justify-between items-center gap-6">
-            <div className="flex items-center gap-2 cursor-pointer">
-              <p>Bangla</p>
-              <FontAwesomeIcon icon={faChevronDown} />
-            </div>
-            <div className="flex items-center gap-2 cursor-pointer">
-              <p>Taka</p>
-              <FontAwesomeIcon icon={faChevronDown} />
-              <div className="w-0.5 h-6 bg-[#B3B3B3]"></div>
-            </div>
-            <div className="flex justify-center items-center gap-2">
-              <button className="hover:cursor-pointer">Sign In</button>
-              <p>/</p>
-              <button className="hover:cursor-pointer">Sign Up</button>
+          <div>
+            <FontAwesomeIcon className="text-4xl cursor-pointer" icon={faBars} />
+          </div>
+          <div className="hidden lg:block">
+            <div className="flex justify-between items-center gap-6">
+              <div className="flex items-center gap-2 cursor-pointer">
+                <p>Bangla</p>
+                <FontAwesomeIcon icon={faChevronDown} />
+              </div>
+              <div className="flex items-center gap-2 cursor-pointer">
+                <p>Taka</p>
+                <FontAwesomeIcon icon={faChevronDown} />
+                <div className="w-0.5 h-6 bg-[#B3B3B3]"></div>
+              </div>
+              <div className="flex justify-center items-center gap-2">
+                <button className="hover:cursor-pointer">Sign In</button>
+                <p>/</p>
+                <button className="hover:cursor-pointer">Sign Up</button>
+              </div>
             </div>
           </div>
         </div>
-        <nav className="px-[5%] mx-auto ">
+        <nav className="px-[5%] mx-auto hidden lg:block">
           <div className="flex justify-between items-center py-6">
             <div>
               <img
@@ -45,9 +50,9 @@ function Header() {
                 alt=""
               />
             </div>
-            <div className="flex justify-center items-center">
+            <div className="flex flex-col lg:flex-row justify-center items-center">
               <input
-                className="px-4 py-[11px] w-[500px] border input-1 outline-none border-gray-300 bg-[#E6E6E6] "
+                className="px-4 py-[11px] lg:w-[500px] w-full border input-1 outline-none border-gray-300 bg-[#E6E6E6] "
                 type="text"
                 placeholder="Search"
                 required
@@ -85,7 +90,7 @@ function Header() {
                 Contact Us
               </li>
             </ul>
-            <div className="flex items-center gap-2 cursor-pointer ">
+            <div className="flex items-center gap-2 cursor-pointer">
               <img src="/images/PhoneCall 1.png" alt="" />
               <p className="text-[#1A1A1A] text-lg hover:text-[#00B207]">
                 +880 13122 03474
@@ -95,7 +100,10 @@ function Header() {
         </nav>
         <div className=" bg-[url('/images/background.jpg')] bg-cover">
           <div className="flex items-center gap-2 py-12 px-[5%] ">
-            <FontAwesomeIcon className="text-gray-400 text-xl cursor-pointer" icon={faHouse} />
+            <FontAwesomeIcon
+              className="text-gray-400 text-xl cursor-pointer"
+              icon={faHouse}
+            />
             <FontAwesomeIcon
               className="text-gray-400 text-xl"
               icon={faChevronRight}
@@ -105,7 +113,7 @@ function Header() {
         </div>
       </header>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

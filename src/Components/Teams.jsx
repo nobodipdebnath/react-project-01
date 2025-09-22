@@ -15,10 +15,10 @@ function Teams() {
               tincidunt a a mi.
             </p>
             <div className="flex justify-between items-center gap-6">
-              <div className="cursor-pointer">
+              <div className="cursor-pointer hidden lg:block">
                 <img src="/images/Aoorw1.png" alt="" />
               </div>
-              <div className=" flex justify-between items-center gap-6">
+              <div className=" flex flex-col lg:flex-row justify-between items-center gap-6">
                 <div>
                   <img src="/images/Image (2).png" alt="" />
                   <div className="bg-white p-3 rounded-b-lg">
@@ -64,7 +64,7 @@ function Teams() {
                   </div>
                 </div>
               </div>
-              <div className="cursor-pointer">
+              <div className="cursor-pointer hidden lg:block">
                 <img src="/images/Aoorw.png" alt="" />
               </div>
             </div>
