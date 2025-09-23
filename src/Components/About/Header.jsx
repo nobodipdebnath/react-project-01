@@ -8,6 +8,7 @@ import {
   faArrowRight,
   faChevronRight,faBars,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -19,9 +20,11 @@ function Header() {
             <FontAwesomeIcon icon={faLocationDot} />
             <p>Store Location: Thakurgaon,Rangpur, <br className="lg:hidden" />Bangladesh</p>
           </div>
-          <div>
-            <FontAwesomeIcon className="text-4xl cursor-pointer" icon={faBars} />
+          {/* Mobile ber */}
+          <div className="lg:hidden">
+            <FontAwesomeIcon className="text-3xl cursor-pointer" icon={faBars} />
           </div>
+          {/* Mobile ber */}
           <div className="hidden lg:block">
             <div className="flex justify-between items-center gap-6">
               <div className="flex items-center gap-2 cursor-pointer">
@@ -44,11 +47,11 @@ function Header() {
         <nav className="px-[5%] mx-auto hidden lg:block">
           <div className="flex justify-between items-center py-6">
             <div>
-              <img
+              <Link to="/"><img
                 className="h-10 w-full cursor-pointer"
                 src="/images/Logo.png"
                 alt=""
-              />
+              /></Link>
             </div>
             <div className="flex flex-col lg:flex-row justify-center items-center">
               <input
@@ -81,19 +84,18 @@ function Header() {
           </div>
           <div className="flex justify-between items-center py-5">
             <ul className="flex justify-between items-center gap-6 text-[#666666] text-lg ">
-              <li className="hover:text-[#00B207] cursor-pointer">Home</li>
-              <li className="hover:text-[#00B207] cursor-pointer">Shop</li>
-              <li className="hover:text-[#00B207] cursor-pointer">Pages</li>
-              <li className="hover:text-[#00B207] cursor-pointer">Blog</li>
-              <li className="hover:text-[#00B207] cursor-pointer">About Us</li>
+              <li className="hover:text-[#00B207] cursor-pointer"><Link to='/'>Home</Link></li>
+              <li className="hover:text-[#00B207] cursor-pointer"><Link to='/shop'>Shop</Link></li>
+              <li className="hover:text-[#00B207] cursor-pointer"><Link to='/blog'>Blog</Link></li>
+              <li className="hover:text-[#00B207] cursor-pointer"><Link to='/about-us'>About Us</Link></li>
               <li className="hover:text-[#00B207] cursor-pointer">
-                Contact Us
+                <Link to='/contact-us'>Contact Us</Link>
               </li>
             </ul>
             <div className="flex items-center gap-2 cursor-pointer">
               <img src="/images/PhoneCall 1.png" alt="" />
               <p className="text-[#1A1A1A] text-lg hover:text-[#00B207]">
-                +880 13122 03474
+                <a href="tel:+8801833597831">+8801833597831</a>
               </p>
             </div>
           </div>
@@ -108,7 +110,7 @@ function Header() {
               className="text-gray-400 text-xl"
               icon={faChevronRight}
             />
-            <p className="text-[#00B207] text-lg cursor-pointer ">About</p>
+            <p className="text-[#00B207] text-lg cursor-pointer ">......</p>
           </div>
         </div>
       </header>

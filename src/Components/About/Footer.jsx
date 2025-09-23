@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function Footer() {
   return (
@@ -11,9 +11,9 @@ function Footer() {
                     </div>
                     <p className='text-[#808080] py-2 text-center md:text-start'>Morbi cursus porttitor enim lobortis molestie. <br /> Duis gravida turpis dui, eget bibendum magna congue nec.</p>
                     <div className='flex flex-col md:flex-row mb-4 md:mb-0 justify-between items-center pt-4'>
-                        <p className='text-white cursor-pointer hover:underline'>+880 13122 03474</p>
+                        <p className='text-white cursor-pointer hover:underline'><a href="tel:+8801833597831">+8801833597831</a></p>
                         <p className='text-[#808080]'>or</p>
-                        <p className='text-white cursor-pointer hover:underline'>nobodipdebnath45@gmail.com</p>
+                        <p className='text-white cursor-pointer hover:underline'><a href="mailto:nobodipdebnath45@gmail.com">nobodipdebnath45@gmail.com</a></p>
                     </div>
                 </div>
                 <ul>
