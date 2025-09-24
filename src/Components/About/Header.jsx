@@ -86,6 +86,7 @@ function Header() {
             <ul className="flex justify-between items-center gap-6 text-[#666666] text-lg ">
               <li className="hover:text-[#00B207] cursor-pointer"><Link to='/'>Home</Link></li>
               <li className="hover:text-[#00B207] cursor-pointer"><Link to='/shop'>Shop</Link></li>
+              <li className="hover:text-[#00B207] cursor-pointer"><Link to='/foryou2'>Shop 2</Link></li>
               <li className="hover:text-[#00B207] cursor-pointer"><Link to='/blog'>Blog</Link></li>
               <li className="hover:text-[#00B207] cursor-pointer"><Link to='/about-us'>About Us</Link></li>
               <li className="hover:text-[#00B207] cursor-pointer">
