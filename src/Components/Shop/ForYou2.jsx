@@ -50,7 +50,9 @@ const blogs = [
   { id: 47, title: "Brussels Sprouts", image: "/vegetable/47.jpg", price: 105, offer: "20% off" },
   { id: 48, title: "Chayote", image: "/vegetable/48.jpg", price: 67, offer: "18% off" },
   { id: 49, title: "Swiss Chard", image: "/vegetable/49.jpg", price: 92, offer: "25% off" },
-  { id: 50, title: "Water Spinach", image: "/vegetable/50.jpg", price: 38, offer: "30% off" }
+  { id: 50, title: "Water Spinach", image: "/vegetable/50.jpg", price: 38, offer: "30% off" },
+  { id: 51, title: "Full Kopi", image: "/vegetable/51.jpg", price: 63, offer: "40% off" },
+  { id: 51, title: "Begun", image: "/vegetable/52.jpg", price: 53, offer: "29% off" }
 ];
 
 export default function ForYou2() {
@@ -84,7 +86,7 @@ export default function ForYou2() {
                 <p className="text-md font-semibold text-red-800">{blog.offer}</p>
               </div>
               <div>
-                <a href={blog.link} className="py-2.5 px-3 border rounded-lg font-semibold border-[#00B207] hover:bg-[#00B207] hover:text-white duration-500 cursor-pointer"> Buy Now</a>
+                <a href={blog.link} className="py-2.5 px-3 border rounded-lg font-semibold border-[#00B207] hover:bg-[#00B207] hover:text-white duration-500 cursor-pointer"  > Buy Now</a>
               </div>
             </div>
             

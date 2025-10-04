@@ -26,20 +26,20 @@ function ContactForm() {
       </h1>
       <div className="grid grid-cols-2 items-center gap-8 px-[10%] py-10">
         <div className=" flex flex-col gap-6">
-          <a href="https://www.facebook.com/profile.php?id=61554300737206" target="-blank">
             <div className="flex items-center gap-2">
             <FontAwesomeIcon
               className="text-4xl text-[#00B207]"
               icon={faFacebook}
             />
-            <div>
+            <a href="https://www.facebook.com/profile.php?id=61554300737206" target="-blank">
+              <div className=" p-4 rounded-lg shadow-xl">
               <p className=" text-2xl text-[#FF8A00] font-semibold hover:underline cursor-pointer">
                 Online Fresh Food,,
               </p>
               <p className="text-[16px] text-[#808080] ">Facebook page..</p>
             </div>
+            </a>
           </div>
-          </a>
           <a href="https://www.instagram.com/debnathnobodip/" target="-blank">
             <div className="flex items-center gap-2">
             <FontAwesomeIcon

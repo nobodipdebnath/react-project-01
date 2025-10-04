@@ -16,9 +16,9 @@ function Testimonial() {
                 <p className="py-4 text-[#4D4D4D] text-center md:text-start">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget</p>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-2">
-                    <img src="/images/Image (6).png" alt="" />
+                    <img className='h-14 w-14 rounded-full cursor-not-allowed' src="/images/lisa.jpg" alt="" />
                     <div>
-                      <h3 className="text-[#1A1A1A] text-[18px] font-medium">Robert Fox</h3>
+                      <h3 className="text-[#1A1A1A] text-[18px] font-semibold">Lisa Akhter</h3>
                       <p className="text-[#999999] text-[16px]">Customer</p>
                     </div>
                   </div>
@@ -32,9 +32,9 @@ function Testimonial() {
                 <p className="py-4 text-[#4D4D4D] text-center md:text-start">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget</p>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-2">
-                    <img src="/images/Image (7).png" alt="" />
+                    <img className='h-14 w-14 rounded-full cursor-not-allowed' src="/images/nobodip.jpg" alt="" />
                     <div>
-                      <h3 className="text-[#1A1A1A] text-[18px] font-medium">Dianne Russell</h3>
+                      <h3 className="text-[#1A1A1A] text-[18px] font-semibold">Nobodip Debnath</h3>
                       <p className="text-[#999999] text-[16px]">Customer</p>
                     </div>
                   </div>
@@ -48,9 +48,9 @@ function Testimonial() {
                 <p className="py-4 text-[#4D4D4D] text-center md:text-start">Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget</p>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-2">
-                    <img src="/images/Image (8).png" alt="" />
+                    <img className='h-14 w-14 rounded-full cursor-not-allowed' src="/images/anu.jpg" alt="" />
                     <div>
-                      <h3 className="text-[#1A1A1A] text-[18px] font-medium">Eleanor Pena</h3>
+                      <h3 className="text-[#1A1A1A] text-[18px] font-semibold">Susmita Mohonto</h3>
                       <p className="text-[#999999] text-[16px]">Customer</p>
                     </div>
                   </div>

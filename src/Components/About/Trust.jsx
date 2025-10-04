@@ -5,7 +5,7 @@ function Trust() {
     <div>
         {/* Trust section start */}
         <section className=" bg-gray-50 ">
-          <div className="px-[7%] grid grid-cols-1 lg:grid-cols-2 pb-10 md:py-[100px]  ">
+          <div className="px-[7%] grid grid-cols-1 gap-6 lg:grid-cols-2 pb-10 md:py-[100px]  ">
             <div className="bg-[url('/images/BG.png')] bg-center bg-cover rounded-lg">
               <img src="/images/Image.png" alt="" />
             </div>
