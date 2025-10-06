@@ -6,7 +6,7 @@ function PartOne() {
   return (
     <div>
         <div className='px-[10%] bg-gray-100'>
-          <div className='grid grid-cols-4 gap-6 py-10 '>
+          <div className='grid  md:grid-cols-3 lg:grid-cols-4 grid-cols-1 gap-6 py-10 '>
             <div className='p-4 shadow-xl bg-white rounded-lg'>
               <h1 className='text-2xl font-semibold py-2'>Products Under ৳69</h1>
               <div className='grid grid-cols-2 gap-2 p-2  border-gray-300 bg-gray-100 rounded-lg'>
@@ -92,7 +92,7 @@ function PartOne() {
 
           <div className=' p-4 bg-white rounded-lg'>
             <h1 className='text-3xl font-semibold'>Deals Under ৳199</h1>
-            <div className='grid grid-cols-5 gap-2'>
+            <div className='grid md:grid-cols-3 grid-cols-1 lg:grid-cols-5 gap-2'>
               <div className='p-4 bg-gray-100 rounded-lg hover:shadow-2xl duration-500 cursor-pointer'>
                 <img className='rounded-lg h-[250px] w-full' src="/vegetable/56.jpg" alt="" />
                 <div className='flex gap-3 items-center'>

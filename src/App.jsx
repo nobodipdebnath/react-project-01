@@ -9,6 +9,8 @@ import Footer from "./Components/About/Footer";
 import ShopPage from "./Pages/ShopPage";
 import HomePage from "./Pages/HomePage";
 import ForYou2 from "./Components/Shop/ForYou2";
+import SignIn from "./Components/Sign-In/SignIn";
+import SignUp from "./Components/Sing-Up/SignUp";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/about-us" element={<AboutUsPage />} />
         <Route path="/contact-us" element={<ContactPage />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
 
       <Footer />

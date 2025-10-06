@@ -4,12 +4,12 @@ function Blog() {
   return (
     <div>
       <section className="py-10 px-[10%] ">
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="bg-[url('/images/background.jpg')] rounded-lg  bg-cover">
             <img src="/images/Image (1).png" alt="" />
           </div>
           <div>
-            <h1 className="text-4xl font-medium ">Tips for buying fresh vegetable: সবজির গুণে স্বাদ আসে খাবারের, বাজারে গিয়ে তাজা সবজি চিনবেন কীভাবে?</h1>
+            <h1 className="text-4xl font-medium text-center md:text-start"><strong className="">Tips for buying fresh vegetable:</strong> সবজির গুণে স্বাদ আসে খাবারের, বাজারে গিয়ে তাজা সবজি চিনবেন কীভাবে?</h1>
             <h2 className="text-3xl pt-3">* সাধারণ নিয়ম (সবজির জন্য)</h2>
             <p>➡️ দেখুন — রং ঝকঝকে ও স্বাভাবিক হওয়া চাই। ফিকে/বাদামী দাগ, পচা বা ছাঁচ হলে বর্জ্য।</p>
             <p>➡️ ছোঁয়ায় পরীক্ষা করুন — কাঁচা কিন্তু টাইট (firm) হওয়া দরকার। নরম/ঝুলে গেলে পচা।</p>

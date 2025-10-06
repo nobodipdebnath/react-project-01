@@ -24,7 +24,7 @@ function ContactForm() {
       <h1 className="text-center font-semibold text-5xl ">
         Get in Touch
       </h1>
-      <div className="grid grid-cols-2 items-center gap-8 px-[10%] py-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 px-[10%] py-10">
         <div className=" flex flex-col gap-6">
             <div className="flex items-center gap-2">
             <FontAwesomeIcon
@@ -76,7 +76,7 @@ function ContactForm() {
             />
             <div>
               <p className=" text-2xl text-[#FF8A00] font-semibold hover:underline cursor-pointer">
-                nobodipdebnath452@gmail.com
+                nobodipdebnath452 <br className="md:hidden block" />@gmail.com
               </p>
               <p className="text-[16px] text-[#808080] ">Message on Gmail..</p>
             </div>
