@@ -75,7 +75,16 @@ function App() {
       if (!isReapplying) {
         alert("Coupon 'Rana' applied successfully! You got a 20% discount.");
       }
-    } else {
+    }
+    else if(couponCode.toLowerCase() === 'nobodip'){
+      const discountAmount = subtotal * 0.66;
+      setDiscount(discountAmount);
+      setAppliedCoupon(couponCode);
+      if(!isReapplying){
+        alert("Coupon 'Nobodip' applied successfully! You got a 66% discount ")
+      }
+    }
+    else {
       setDiscount(0);
       setAppliedCoupon(""); 
       if (!isReapplying) {

@@ -70,7 +70,7 @@ export default function ForYou2({ onAddToCart }) {
     if (selectedProduct) {
       onAddToCart(selectedProduct);
       // ঐচ্ছিকভাবে, কার্টে যোগ করার পর মোডাল বন্ধ করে দিতে পারেন
-      // document.getElementById('product_modal_2').close(); 
+      document.getElementById('product_modal_2').close(); 
     }
   };
 
