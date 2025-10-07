@@ -1,3 +1,48 @@
+/* আপনার অন্যান্য CSS কোডের সাথে এটি যোগ করুন */
+
+body.modal-open #main-content {
+  filter: blur(5px);
+  transition: filter 0.3s ease-out;
+  pointer-events: none;
+  user-select: none;
+}
+
+#main-content {
+  transition: filter 0.3s ease-out;
+}
+
+@keyframes scale-in {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-scale-in {
+  animation: scale-in 0.2s ease-out forwards;
+}
+
+
+/* public/App.css অথবা index.css */
+
+@keyframes scale-in {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-scale-in {
+  animation: scale-in 0.2s ease-out forwards;
+}
 
 .poppins {
   font-family: "Poppins", sans-serif;
